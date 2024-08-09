@@ -31,15 +31,17 @@ Ensure you have the following installed on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/auction-platform-frontend.git
+   git clone https://github.com/sugumar-MS/Capstone-Auction-Platform-Task-Frontend.git
    cd auction-platform-frontend
 
 2. **Install dependencies:**
 
+   ```bash
    npm install
    # or
    yarn install
 
 Running the Application
 
+   ```bash
    npm run dev
