@@ -22,7 +22,7 @@ function CreateProduct() {
       }
       
       const productData = { name, description,  startingBid, seller };
-      const response = await axios.post('http://localhost:5000/api/products/create', productData, {
+      const response = await axios.post('https://capstone-auction-platform-backend-task-1.onrender.com/api/products/create', productData, {
         headers: { Authorization: `Bearer ${token}` },
       });
 

@@ -19,7 +19,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/users/register', { email, password });
+      const response = await axios.post('https://capstone-auction-platform-backend-task-1.onrender.com/api/users/register', { email, password });
       alert('Registration successful');
       // Redirect to the login page after successful registration
        navigate('/Login');
