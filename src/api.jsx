@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://capstone-auction-platform-backend-task-1.onrender.com/api';
+const API_URL = 'https://capstone-auction-platform-backend-task-3.onrender.com/api';
 
 export const registerUser = async (userData) => {
   return await axios.post(`${API_URL}/users/register`, userData);
